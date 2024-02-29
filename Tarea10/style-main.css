@@ -1,0 +1,193 @@
+/* COLORES */
+:root {
+    --AzulCF:#D5EFF0;
+    --VerdeFF: #01544F;
+    --VerdeFB: #0B7578;
+    --VerdeBB: #018B7E;
+    --BlancoB: #ffffff;
+    --VerdeBLetras: #0B7578;
+    --VerdeFLetras: #01544F;
+    --BlancoLetras: #ffffff;
+    --NegroLetras: #000000;
+}
+
+/* VARIOS USOS */
+
+.FondoV {
+    background-color: var(--VerdeFF);
+    height: 200px;
+}
+
+
+.Distancia {
+    padding: 60px 30px;
+}
+
+.MargenesM {
+    margin: 30px 20px;
+}
+
+.ContenedorIT {
+    width: 300px;
+}
+
+.Justificado {
+    text-align: justify;
+}
+
+.SubTituloV {
+    color: var(--VerdeFLetras);
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.TextoPV {
+    color: var(--VerdeBLetras);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.TextoPV2 {
+    color: var(--VerdeBLetras);
+    font-size: 15px;
+    line-height: 30px;
+}
+
+/* INDEX */
+
+.ImagenF {
+    background-image: url(imagenes/foto_slide.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+
+.TituloBI {
+    color: var(--BlancoLetras);
+    /* font-weight: bold; */
+    font-size: 70px;
+    line-height: 60px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.TextoBI {
+    color: var(--BlancoLetras);
+    /* font-weight: bold; */
+    font-size: 30px;
+    line-height: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.BotonBN {
+    padding: 10px 30px;
+    background-color: var(--VerdeBB);
+    border: 1px var(--VerdeBB) solid;
+    color: var(--BlancoLetras);
+}
+
+.BotonBN:hover {
+    padding: 10px 40px;
+    background-color: var(--VerdeFB);
+    border: 1px var(--VerdeFB) solid;
+}
+
+.TituloVIP {
+    color: var(--VerdeFLetras);
+    /* font-weight: bold; */
+    font-size: 40px;
+    line-height: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.TituloVI {
+    color: var(--VerdeFLetras);
+    /* font-weight: bold; */
+    font-size: 30px;
+    line-height: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.ColorLP {
+    color: var(--VerdeBLetras);
+    font-size: 14px;
+}
+
+.ImagenesI {
+    width: 300px;
+}
+
+.TextoPV3 {
+    color: var(--VerdeBLetras);
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/* SERVICIOS */
+
+.TituloBS {
+    color: var(--BlancoLetras);
+    /* font-weight: bold; */
+    font-size: 60px;
+    line-height: 60px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.DistanciaC {
+    padding: 0px 200px;
+}
+
+.TituloVIA {
+    color: var(--VerdeFLetras);
+    /* font-weight: bold; */
+    font-size: 50px;
+    line-height: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.TextoFV {
+    color: var(--VerdeBLetras);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* CONTACTO */
+
+.TituloBC {
+    color: var(--BlancoLetras);
+    /* font-weight: bold; */
+    font-size: 70px;
+    line-height: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.DistanciaF {
+    margin: 0px 100px;
+    padding: 20px 40px;
+}
+
+.FondoVF {
+    background-color: var(--VerdeFF);
+}
+
+.FondoVCB {
+    background-color: var(--VerdeBLetras);
+    color: var(--BlancoLetras);
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border: 1px var(--VerdeBLetras) solid;
+}
+
+.FondoVCB::placeholder {
+    color: var(--BlancoLetras);
+}
+
+.BotonVBB {
+    background-color: var(--VerdeBB);
+    border: 1px var(--VerdeBB) solid;
+    color: var(--BlancoLetras);
+    width: 830px;
+    padding: 20px 30px;
+}

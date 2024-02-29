@@ -1,0 +1,155 @@
+:root {
+    --color-rojo:#980100;
+    --color-naranja:#ef6816;
+    --color-blanco: #ffffff;
+    --color-negro: #000000;
+    --color-grisHeader: #333333;
+    --color-grisFormulario: #eaeaea;
+    --color-grisFooder: #666666;
+    --color-azulBoton: #0550ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    width: 1200px;
+    margin: auto;
+    color: var(--color-negro);
+}
+
+.centro {
+    text-align: center;
+}
+
+.Junto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Alado {
+    display: inline-block;
+    width: 120px;
+}
+
+.Alado2 {
+    display: flex;
+}
+
+.FondoArriba {
+    background-color: var(--color-grisHeader);
+    padding: 60px;
+    margin: 10px;
+}
+
+.FondoAbajo {
+    background-color: var(--color-grisFooder);
+    padding: 10px;
+    margin: 10px;
+}
+
+.LetraBlanca {
+    color: var(--color-blanco);
+    font-size: 55px;
+}
+
+.LigaBlanca {
+    color: var(--color-blanco);
+    font-size: 30px;
+}
+
+.botonmenu {
+    border-right: 3px var(--color-negro) solid;
+    margin: 30px;
+    padding: 4px 25px;
+    font-size: 25px;
+    color: var(--color-rojo);
+}
+
+.botoninicio {
+    border-right: 3px var(--color-negro) solid;
+    padding: 4px 25px;
+    font-size: 25px;
+    color: var(--color-azulBoton);
+}
+
+.Menu {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.tamanoimagen {
+    width: 400px;
+}
+
+.textonaranja {
+    color: var(--color-naranja);
+    font-size: 30px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.titulonaranja {
+    color: var(--color-naranja);
+    font-size: 30px;
+    padding: 20px 0px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    width: 1180px;
+    border-bottom: 2px var(--color-grisFormulario) solid;
+}
+
+.nombrerojo {
+    color: var(--color-rojo);
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.EspacioBoton {
+    margin-bottom: 30px;
+}
+
+.Justificado {
+    text-align: justify;
+}
+
+.cajitaformulariomultiple {
+    display: inline-block;
+}
+
+.cajitaformulario {
+    width: 200px;
+}
+
+.contenidoformulario {
+    border: 1px var(--color-grisFormulario) solid;
+    width: 100px;
+    background-color: var(--color-grisFormulario);
+}
+
+table {
+    border: 1px var(--color-grisFooder) solid;
+    width: 800px;
+    text-align: center;
+    background-color: var(--color-blanco);
+    padding: 10px;
+}
+
+table td {
+    border: 1px var(--color-grisFooder)  solid;
+    padding: 10px;
+}
+
+table th {
+    border: 1px var(--color-grisFooder)  solid;
+    background-color: var(--color-rojo);
+    color: var(--color-blanco);
+    padding: 10px;
+}

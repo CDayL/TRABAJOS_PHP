@@ -1,0 +1,133 @@
+:root {
+    --color-blanco: #ffffff;
+    --color-negro: #000000;
+    --color-grisHeader: #333333;
+    --color-grisFormulario: #eaeaea;
+    --color-grisFooder: #666666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    width: 1200px;
+    margin: auto;
+    color: var(--color-negro);
+}
+
+.fondoimagen {
+    background-image: url(imagenes/Fondo.webp);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colorobscuro {
+    border: 20px var(--color-grisFooder) solid;
+}
+
+.navegador {
+    background-color: var(--color-grisHeader);
+    padding: 20px;
+}
+
+.botones_navegador {
+    color: var(--color-blanco);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-right: 2px var(--color-blanco) solid;
+    padding: 10px;
+}
+
+.tamanologo {
+    width: 200px;
+    margin-right: 100px;
+    vertical-align: top;
+}
+
+.tamanologofooter {
+    width: 200px;
+    margin-right: 100px;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.centro {
+    text-align: center;
+    height: 300px;
+}
+
+.juntosfooter {
+    display: inline-block;
+    width: 1000px;
+}
+
+.juntos {
+    display: inline-block;
+    /* border: 1px red solid; */
+    width: 350px;
+}
+
+.juntosflex {
+    display: flex;
+    vertical-align: top;
+}
+
+.colorblanco {
+    color: var(--color-blanco);
+}
+
+.margen1 {
+    margin-left: 350px;
+    margin-right: 50px;
+}
+
+.margen2 {
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.borde {
+    border: 5px var(--color-grisHeader) solid;
+}
+
+.negro {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--color-grisFooder);
+    color: var(--color-blanco);
+    padding: 10px;
+    line-height: 40px;
+}
+
+.centrotabla {
+    text-align: center;
+}
+
+.mapa {
+    width: 400px;
+    height: 300px;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+}
+
+table {
+    border: 1px var(--color-grisHeader) solid;
+}
+
+table td {
+    border: 1px var(--color-grisHeader) solid;
+}
+
+table th {
+    border: 1px var(--color-grisHeader) solid;
+}

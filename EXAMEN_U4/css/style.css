@@ -1,0 +1,165 @@
+:root {
+    --color-rojo:#980100;
+    --color-naranja:#efa716;
+    --color-blanco: #ffffff;
+    --color-negro: #000000;
+    --color-grisHeader: #333333;
+    --color-grisFormulario: #eaeaea;
+    --color-grisFooder: #666666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    width: 1200px;
+    margin: auto;
+    color: var(--color-negro);
+}
+
+.centro {
+    text-align: center;
+}
+
+.junto {
+    display: flex;
+}
+
+.junto1 {
+    display: inline-block;
+    width: 120px;
+}
+
+/* Footer, header y main */
+
+.tamanologotec {
+    width: 100px;
+}
+
+.navegador {
+    padding:10px 40px;
+    text-decoration: none;
+}
+
+.navegador:hover {
+    background-color: var(--color-rojo);
+    color: var(--color-blanco);
+}
+
+.fondoheader {
+    background-color: var(--color-grisFormulario);
+    padding: 10px;
+}
+
+.fondofooter {
+    background-color: var(--color-negro);
+    border-bottom: 20px var(--color-rojo) solid;
+}
+
+.blancofooter {
+    color: var(--color-blanco);
+}
+
+.amarillofooter {
+    color: var(--color-naranja);
+}
+
+.margennavegador {
+    margin: 10px 0px;
+}
+
+.espacioimagen {
+    margin-right: 300px;
+    margin-left: 50px;
+}
+
+.espaciotexto {
+    margin-left: 450px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.espaciotexto1 {
+    margin-right: 400px;
+    margin-left: 50px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.espacioimagen1 {
+    margin-left: 450px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rojoheader {
+    color: var(--color-rojo);
+}
+
+.fondomain {
+    background-color: var(--color-grisFormulario);
+    padding: 10px;
+}
+
+/* INDEX */
+
+.tamanologo {
+    width: 500px;
+    border-radius: 70px;
+    padding-bottom: 50px;
+}
+
+.textoindex {
+    color: var(--color-rojo);
+    font-size: 40px;
+}
+
+.fondoindex {
+    background-color: var(--color-grisFormulario);
+    padding: 100px 0px ;
+}
+
+/* FORMULARIO */
+
+.fondoformulario {
+    background-color: var(--color-blanco);
+}
+
+/* VER DATOS */
+
+.tamanoengrane {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.titulodatos {
+    color: var(--color-rojo);
+    font-size: 30px;
+    width: 400px;
+    vertical-align: top;
+}
+
+.espaciotitulo {
+    margin: 20px 0px;
+}
+
+.tamanoeliminar {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.bordeeliminar {
+    border: 3px var(--color-rojo) solid;
+    width: 150px;
+    text-align: center;
+}
+
+.bordedatos {
+    border-bottom: 2px var(--color-negro) solid;
+    padding-top: 20px;
+}

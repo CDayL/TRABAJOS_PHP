@@ -1,0 +1,78 @@
+/* PRIMORDIALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.borde {
+    width: 1200px;
+    margin: auto;
+    /* border: 1px #ff0000 solid; */
+}
+
+.borde1 {
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px #000000 solid;
+}
+
+.menuR {
+    background-color: #771a24;
+    height: 50px;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.menuR a {
+    border: 1px #ffffff solid;
+    height: 50px;
+    text-align: center;
+    padding: 5px 10px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.ColorA {
+    color: blue;
+}
+
+.centro {
+    text-align: center;
+}
+
+/* .ColorAI {
+    text-align: left;
+    color: #dd9a00;
+    margin: 30px 20px;
+} */
+
+.ColorNI {
+    text-align: left;
+    color: #000000;
+    margin: 30px 20px;
+}
+
+main p {
+    text-align: left;
+    color: #000000;
+    margin: 10px 20px;
+}
+
+.ColorG {
+    background-color: #dadadaaa;
+    border: 1px #000000 solid;
+}
+

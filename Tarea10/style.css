@@ -1,0 +1,108 @@
+/* COLORES */
+:root {
+    --AzulCF:#D5EFF0;
+    --VerdeFF: #01544F;
+    --VerdeFB: #0B7578;
+    --VerdeBB: #018B7E;
+    --BlancoB: #ffffff;
+    --VerdeBLetras: #0B7578;
+    --VerdeFLetras: #01544F;
+    --BlancoLetras: #ffffff;
+    --NegroLetras: #000000;
+}
+/* PRIMORDIALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.borde {
+    width: 1200px;
+    margin: auto;
+}
+
+.Alado {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.Juntos {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Juntos1 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* DE VARIOS USOS */
+
+.Centro {
+    text-align: center;
+}
+
+.Izquierda {
+    text-align: right;
+}
+
+.ColorF1 {
+    background-color: var(--AzulCF);
+}
+
+.ColorF2 {
+    background-color: var(--VerdeFF);
+}
+
+.ColorF3 {
+    background-color: var(--BlancoB);
+    padding: 5px 10px;
+}
+
+.ColorL1 {
+    color: var(--VerdeBLetras);
+    font-weight: bold;
+}
+
+.ColorL3 {
+    color: var(--VerdeBLetras);
+}
+
+.Espacio {
+    padding: 10px 50px;
+}
+
+.ColorLT {
+    color: var(--BlancoLetras);
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.EspacioB a  {
+    background-color: var(--BlancoB);
+    color: var(--VerdeBLetras);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 0px 10px;
+}
+
+.EspacioB a:hover  {
+    background-color: var(--VerdeFB);
+    color: var(--BlancoLetras);
+}
